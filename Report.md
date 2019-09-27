@@ -1,6 +1,6 @@
-#Report
+# Report
 
-##2 Step 1: 
+## Step 1: 
 
 I followed the instructions from Stack Overflow to import the original .csv into an SQL table:
 
