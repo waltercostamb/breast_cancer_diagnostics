@@ -1,5 +1,7 @@
 # Report
 
+This report contains all steps and specifics of the project, along with important links and parameters.
+
 ## Step 1: 
 
 I followed the instructions from Stack Overflow to import the original .csv into an SQL table:
