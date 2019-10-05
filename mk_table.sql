@@ -1,13 +1,3 @@
-# Report
-
-This report contains all steps and specifics of the project, along with important links and parameters.
-
-## Step 1: 
-
-I used the PHPAdmin environment to import the .csv table into the mySQL environment using the Windows PC from alphatraining.
-
-In the PHPAdmin, I clicked in the import data, and got the following command line:
-
     CREATE TABLE IF NOT EXISTS `CSV_DB`.`TBL_NAME` (
     `id` int(9), 
     `diagnosis` varchar(1), 
@@ -42,8 +32,6 @@ In the PHPAdmin, I clicked in the import data, and got the following command lin
     `symmetry_worst` int(6), 
     `fractal_dimension_worst` int(7)
     ) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-
-After creating the table, then, I added the contents of lines with:
 
     INSERT INTO `CSV_DB`.`TBL_NAME` (`id`, `diagnosis`, `radius_mean`, `texture_mean`, `perimeter_mean`, `area_mean`, `smoothness_mean`, `compactness_mean`, `concavity_mean`, `concave points_mean`, `symmetry_mean`, `fractal_dimension_mean`, `radius_se`, `texture_se`, `perimeter_se`, `area_se`, `smoothness_se`, `compactness_se`, `concavity_se`, `concave points_se`, `symmetry_se`, `fractal_dimension_se`, `radius_worst`, `texture_worst`, `perimeter_worst`, `area_worst`, `smoothness_worst`, `compactness_worst`, `concavity_worst`, `concave points_worst`, `symmetry_worst`, `fractal_dimension_worst`) 
     VALUES 
